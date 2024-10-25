@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Ticket</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+
+    <!-- Go to Ticket Button -->
+    <a
+      onclick="goToTicket()"
+      class="mt-4 px-6 py-2 bg-clifford text-white rounded-lg hover:bg-red-600 transition duration-300"
+      href="./ticket.html"
+    >
+      Go to Ticket
+    </a>
+
+    <p>
+      From the Github to Chy Devit
+      <span>, by Chyva Kolbothtra</span>
+    </p>
+
+    <script src="script.js"></script>
+    <script>
+      function goToTicket() {
+        window.location.href = "#ticket"; // Modify this as needed
+      }
+    </script>
+  </body>
+</html>
